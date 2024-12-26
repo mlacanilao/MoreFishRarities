@@ -1,0 +1,70 @@
+<Meta>
+  <title>More Fish Rarities</title>
+  <id>omegaplatinum.elin.morefishrarities</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Adds new rarity tiers to caught fish.
+    釣った魚に新しい希少性ランクを追加します。
+
+    [h1] Warning [/h1]
+    [list]
+    [*] This mod treats fish as equipment for rarity assignment.
+    [*] It is highly recommended to back up your save files before using this mod.
+    [/list]
+
+    [h1] Features [/h1]
+    [list]
+    [*] Odds for rarities:
+    [list]
+    [*] Superior: 1/10 (10% chance)
+    [*] Legendary: 1/80 (1.25% chance)
+    [*] Mythical: 1/250 (0.4% chance)
+    [*] Artifact: 1/1000 (0.1% chance)
+    [/list]
+    [*] Fully compatible with base game fishing mechanics.
+    [/list]
+
+    [h1] Odds System [/h1]
+    The rarity of caught fish depends on a dice roll system influenced by player luck:
+    [list]
+    [*] Higher player luck grants additional rolls, taking the highest value to improve odds of rare catches.
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files.
+
+    Supports Game Version: 0.23.67
+
+    [h1] 警告 [/h1]
+    [list]
+    [*] このMODでは、魚を装備として扱い、希少性を割り当てます。
+    [*] MODを使用する前にセーブファイルのバックアップを取ることを強くお勧めします。
+    [/list]
+
+    [h1] 特徴 [/h1]
+    [list]
+    [*] 希少性の確率：
+    [list]
+    [*] 優れた (Superior): 1/10 (10%の確率)
+    [*] 伝説 (Legendary): 1/80 (1.25%の確率)
+    [*] 神話 (Mythical): 1/250 (0.4%の確率)
+    [*] アーティファクト (Artifact): 1/1000 (0.1%の確率)
+    [/list]
+    [*] ベースゲームの釣りメカニクスと完全に互換性があります。
+
+    [h1] 確率システム [/h1]
+    釣った魚の希少性は、プレイヤーの運に影響されるダイスロールシステムに依存します。
+    [list]
+    [*] プレイヤーの運が高いほど、追加のロールが行われ、最高の値が選ばれることで希少な魚を得る確率が向上します。
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブファイルと互換性があります。
+
+    対応ゲームバージョン: 0.23.67
+  </description>
+  <tags>General</tags>
+  <visibility>Public</visibility>
+  <version>0.23.67</version>
+</Meta>
