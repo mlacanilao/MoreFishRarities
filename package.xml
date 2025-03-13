@@ -7,12 +7,6 @@
     Adds new rarity tiers to caught fish.
     釣った魚に新しい希少性ランクを追加します。
 
-    [h1] Warning [/h1]
-    [list]
-    [*] This mod treats fish as equipment for rarity assignment.
-    [*] It is highly recommended to back up your save files before using this mod.
-    [/list]
-
     [h1] Features [/h1]
     [list]
     [*] Odds for rarities:
@@ -34,7 +28,7 @@
     [h1] Compatibility [/h1]
     This mod works with existing save files.
 
-    Supports Game Version: 0.23.67
+    Supports Game Version: 0.23.99
 
     [h1] 警告 [/h1]
     [list]
@@ -52,6 +46,7 @@
     [*] アーティファクト (Artifact): 1/1000 (0.1%の確率)
     [/list]
     [*] ベースゲームの釣りメカニクスと完全に互換性があります。
+    [/list]
 
     [h1] 確率システム [/h1]
     釣った魚の希少性は、プレイヤーの運に影響されるダイスロールシステムに依存します。
@@ -62,9 +57,9 @@
     [h1] 互換性 [/h1]
     このMODは既存のセーブファイルと互換性があります。
 
-    対応ゲームバージョン: 0.23.67
+    対応ゲームバージョン: 0.23.99
   </description>
   <tags>General</tags>
   <visibility>Public</visibility>
-  <version>0.23.67</version>
+  <version>0.23.99</version>
 </Meta>

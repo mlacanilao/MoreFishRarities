@@ -1,4 +1,3 @@
-using MoreFishRarities.Patches;
 using HarmonyLib;
 
 namespace MoreFishRarities
@@ -12,11 +11,11 @@ namespace MoreFishRarities
             AI_FishPatch.MakefishPostfix(__result: __result, c: c);
         }
         
-        [HarmonyPrefix]
-        [HarmonyPatch(declaringType: typeof(Card), methodName: nameof(Card.IsEquipmentOrRanged), methodType: MethodType.Getter)]
-        public static bool CardIsEquipmentOrRanged(Card __instance, ref bool __result)
+        [HarmonyPostfix]
+        [HarmonyPatch(declaringType: typeof(ButtonGrid), methodName: nameof(ButtonGrid.SetCard))]
+        public static void ButtonGridSetCard(ButtonGrid __instance, Card c)
         {
-            return CardPatch.IsEquipmentOrRangedPrefix(__instance: __instance, __result: ref __result);
+            ButtonGridPatch.SetCardPostfix(__instance: __instance, c: c);
         }
     }
 }
