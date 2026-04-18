@@ -1,0 +1,73 @@
+<Meta>
+  <title>More Fish Rarities</title>
+  <id>omegaplatinum.elin.morefishrarities</id>
+  <author>OmegaPlatinum</author>
+  <loadPriority>100</loadPriority>
+  <description>
+    Adds new rarity tiers and rare-item presentation to player-caught fish.
+    プレイヤーが釣った魚に新しい希少性ランクとレアアイテム風の表示を追加します。
+
+    [h1] Features [/h1]
+    [list]
+    [*] Adds Superior, Legendary, Mythical, and Artifact rarities to player-caught fish.
+    [*] Identified rare fish get rarity frames in inventory and search grids.
+    [*] Identified Legendary+ fish reuse vanilla-style rare-item naming, symbols, and alias formatting.
+    [*] Odds for rarities:
+    [list]
+    [*] Superior: 1/10 (10% chance)
+    [*] Legendary: 1/80 (1.25% chance)
+    [*] Mythical: 1/250 (0.4% chance)
+    [*] Artifact: 1/1000 (0.1% chance)
+    [/list]
+    [*] Keeps the base fishing flow and applies rarity after the catch result is created.
+    [/list]
+
+    [h1] Odds System [/h1]
+    The rarity of caught fish depends on a dice roll system influenced by player luck:
+    [list]
+    [*] Rarity checks are exclusive and rolled from rarest to most common.
+    [*] Higher player luck grants additional rolls, taking the highest value to improve odds of rare catches.
+    [/list]
+
+    [h1] Compatibility [/h1]
+    This mod works with existing save files.
+
+    [img] https://img.shields.io/badge/Supports%20Game%20Version-EA%2023.295%20Stable-green [/img]
+
+    [h1] 特徴 [/h1]
+    [list]
+    [*] プレイヤーが釣った魚に Superior、Legendary、Mythical、Artifact の希少性を追加します。
+    [*] 識別済みのレア魚は、インベントリと検索グリッドで希少性フレームが表示されます。
+    [*] 識別済みの Legendary 以上の魚は、バニラのレア装備に近い名前表示、記号、別名フォーマットを使います。
+    [*] 希少性の確率：
+    [list]
+    [*] 優れた (Superior): 1/10 (10%の確率)
+    [*] 伝説 (Legendary): 1/80 (1.25%の確率)
+    [*] 神話 (Mythical): 1/250 (0.4%の確率)
+    [*] アーティファクト (Artifact): 1/1000 (0.1%の確率)
+    [/list]
+    [*] ベースの釣りの流れは維持しつつ、釣果が生成された後に希少性を適用します。
+    [/list]
+
+    [h1] 確率システム [/h1]
+    釣った魚の希少性は、プレイヤーの運に影響されるダイスロールシステムに依存します。
+    [list]
+    [*] 希少性チェックは排他的で、最もレアなものから順番に判定されます。
+    [*] プレイヤーの運が高いほど、追加のロールが行われ、最高の値が選ばれることで希少な魚を得る確率が向上します。
+    [/list]
+
+    [h1] 互換性 [/h1]
+    このMODは既存のセーブファイルと互換性があります。
+
+    [h1] 注意 [/h1]
+    [list]
+    [*] このMODは主にプレイヤーが釣った魚の希少性と表示を変更します。
+    [*] 釣果を別アイテムに変換したり、結果を差し替えたりするMODと併用する場合は、バックアップ付きで動作確認することをおすすめします。
+    [/list]
+
+    [img] https://img.shields.io/badge/対応ゲームバージョン-EA%2023.295%20Stable-green [/img]
+  </description>
+  <tags>General</tags>
+  <visibility>Public</visibility>
+  <version>0.23.295</version>
+</Meta>
